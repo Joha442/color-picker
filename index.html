@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="controls">
+
+            <div class="control">
+                <label class="label">R</label>
+                <input class="range" type="range" name="red" min="0" max="255" step="1" value="0" id="red">
+                <div id="r">0</div>
+            </div>
+            <div class="control">
+                <label class="label">G</label>
+                <input class="range" type="range" name="green" min="0" max="255" step="1" value="0" id="green">
+                <div id="g">0</div>
+            </div>
+            <div class="control"> 
+                <label class="label">B</label>
+                <input class="range" type="range" name="blue" min="0" max="255" step="1" value="0" id="blue">
+                <div id="b">0</div>
+            </div>
+            <p class="hex"></p>
+        </div>
+        <div class="square"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
